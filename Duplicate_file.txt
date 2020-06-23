@@ -1,0 +1,4 @@
+Version Control System(VCS) is used manage files in repository.It tracks the changes occurred in files.It is also known as Revision Control System or Source Code System.
+VCS tool is of 2 types centralised and distributed.The main advantage of VCS is multiple people can access the same file simultaneously.
+Few examples of VCS are Github,SVN,CVS etc.
+ 
