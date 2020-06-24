@@ -1,0 +1,11 @@
+Steps to be followed for browsing the labs in Virtual Labs
+
+●Step 1 - Open your Web Browser. Type http://vlab.co.in/ and press Enter (or) Click Here This will redirect you Virtual Labs website.
+●Step 2 - Scroll the page down. You will be able to see “Broad Areas of Virtual Labs”.
+●Step 3 - Click on any Discipline/Branch you belong to. For Example : “Computer Science & Engineering”
+●Step 4 - Now you will be able to see the labs related to the discipline selected in Step 3.
+●Step 5 - Click any lab you wish to perform, that takes you to the Experiment page. Click on “Data Structures Lab” .
+●Step 6 : Click on “List of experiments” in the left menu bar. This takes you to the list of experiments pages.
+●Step 7 - Click on any experiment. It will redirect you to the Introduction of the respective experiment. For Example : Click on “Sorting using Arrays” that will direct you to the  respective experiment.
+●Step 8 - To perform any experiment, Click on “Simulation/Experiment”. Now you can start performing the experiments of Virtual Labs. For example : Click on “Quick Sort”. The experiment opens in a new window. In case if you're not able to access please make sure that Adobe flash is installed and allowed for the web Browser.
+
