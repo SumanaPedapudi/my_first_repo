@@ -7,14 +7,35 @@
 			border :1px;
 			border-style: solid;
 			border-collapse: collapse;
+			border-color: red;
+		}
+		table{
+			outline-style: dashed;
+			outline-width: 1px;
+			outline-offset: 5px;
+			outline-color: blue;
+			width: 100%;
+		}
+		h3{
+			padding: 40px;
+		}
+		.c:nth-child(odd){
+			padding-left: 10px;
+			background-color: lightgray;
+		}
+		.t{
+			padding-left: 10px;
+		}
+		.l{
+			text-align: right;
 		}
 	</style>
 </head>
 <body>
 	<h3>Sem marks</h3>
-	<table>
-		<tr>
-			<td>Subject</td>
+	<table id="t">
+		<tr class = "c">
+			<td >Subject</td>
 			<td>Digital Communication</td>
 			<td>Electronic Instrumentation</td>
 			<td>Antennas and Wave Propagation</td>
@@ -22,14 +43,14 @@
 			<td>OOPs Through Java</td>
 			<td>IPR & Patents</td>
 		</tr>	
-		<tr>
-			<td>Grade</td>
-			<td>A</td>
-			<td>A+</td>
-			<td>A</td>
-			<td>A</td>
-			<td>A</td>
-			<td>A</td>
+		<tr class="c">
+			<td class="l">Grade</td>
+			<td class="l">A</td>
+			<td class="l">A+</td>
+			<td class="l">A</td>
+			<td class="l">A</td>
+			<td class="l">A</td>
+			<td class="l">A</td>
 		</tr>
 	</table>
 </body>
