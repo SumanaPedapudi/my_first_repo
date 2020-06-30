@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>function</title>
+	
+</head>
+<body>
+	<table border="1" border-collapse="collapse" id="marks">
+		<tr><th>Subject</th><th>Marks</th></tr>
+		<tr><td>Digital Communication</td><td id="m1">80</td></tr>
+		<tr><td>Electronic Instrumentation</td><td id="m2">85</td></tr>
+		<tr><td>Antennas and Wave Propagation</td><td id="m3">78</td></tr>
+		<tr><td>IC Applications</td><td id="m4">81</td></tr>
+		<tr><td>OOPS Through Java</td><td id="m5">80</td></tr>
+		<tr><td>IPR & Patents</td><td id="m6">85</td></tr>
+		<tr><th class="tot">Total</th><th class="avg">Average = </th></tr>
+	</table>
+</body>
+<script type="text/javascript">
+		function total() {
+			total=Number(document.getElementById("m1").innerHTML)+Number(document.getElementById("m2").innerHTML)+Number(document.getElementById("m3").innerHTML)+Number(document.getElementById("m4").innerHTML)+Number(document.getElementById("m5").innerHTML)+Number(document.getElementById("m6").innerHTML);
+					document.querySelector(".tot").innerHTML='Total = '+total;
+					avg=total/6;
+					document.querySelector(".avg").innerHTML='Average = '+avg;
+		}
+		total();
+	</script>
+</html>

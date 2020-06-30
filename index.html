@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>html page</title>
+	
+</head>
+<body>
+	<h3 id="j"></h3>
+	<p id="n"></p>
+	<form method="get" action="index.html" name="form" method="get" onsubmit="return submitform();">
+		<label for="fn">First name:</label>
+		<input type="text" id="fn" required><br><br>
+		<label for="mail">E-mail:</label>
+		<input type="email" id="mail" required><br><br>
+		<label for="no">Phone number:</label>
+		<input type="" id="no" required pattern="[0-9]{10}"><br><br>
+		<label for="gender" required>Gender:</label>
+		<input type="radio" id="m" name ="g" value="Male">
+		<label for="m">Male</label>
+		<input type="radio" id="f" name="g" value="Female">
+		<label for="f">Female</label>
+		<input type="radio" id="o" name="g" value="Other">
+		<label for="o">Other</label><br><br>
+		<label for="r" required>Reason for RDIP:</label>
+		<input type="checkbox" id="h">
+		<label for="h">HTML</label>
+		<input type="checkbox" id="c">
+		<label for="c">CSS</label>
+		<input type="checkbox" id="j">
+		<label for="j">JavaScript</label><br><br>
+		<label for="college">College:</label>
+		<input type="text" id="college" required><br><br>
+		<input type="checkbox" id="d" required>
+		<label for="d">I declare above details given by me are true</label><br><br>
+		<input type="submit" onclick="firstname(document.form.fn)">
+		<input type="reset">
+	</form>
+	<span><h3>Math functions:</h3></span>
+	<span id="power"></span><br>
+	<span id="sr"></span><br>
+	<span id="absolute"></span><br>
+	<span id="rno"></span><br>
+	<span id="ceil"></span><br>
+	<span id="floor"></span><br>
+	<span id="tf"></span><br>
+</body>
+<script type="text/javascript" src="Java Script.js"></script>
+</html>
