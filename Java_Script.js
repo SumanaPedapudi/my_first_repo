@@ -7,6 +7,13 @@ document.getElementById('n').innerHTML = "Java script is a scripting language to
 		var array = [1,2,3,4,5]
 		array[3] = "3";
 		console.log(array);
+		var ar=[];
+		document.write("<b>Array elements : </b>"+"<br>")
+		for (i = 0; i < 5; i++) {
+			ar[i] = window.prompt("Enter values for array");
+			document.write("Entered value at index "+i+" is "+ar[i]+"<br>");
+		}
+		
 		function firstname(){
 			var f = document.getElementById('fn').value;
 			var a = /^[A-Za-z]+$/;
@@ -19,7 +26,7 @@ document.getElementById('n').innerHTML = "Java script is a scripting language to
 			}
 		}
 		firstname();
-		
+
 		function mathfunctions() {
 			// body...
 			document.getElementById('power').innerHTML = 'Power value = '+Math.pow(2,5);
