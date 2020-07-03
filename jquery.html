@@ -8,8 +8,12 @@
 	<p id="c">Hello World</p>
 	<button id="h">Click to hide the content</button><br><br>
 	<p id="s">Hello</p>
-	<button id="b">To hide and show the content</button>
-	
+	<button id="b"> Click to hide and show the content</button>
+	<p id="hide" class="click">Double click here to disappear</p>
+	<button value="fi" id="in" class="i">Fade in the content</button>
+	<p class="out">Fading the content</p><br>
+	<button id="get">Using Get method</button><br><br>
+	<button id="pos">Using Post method</button>
 	<script>
 		$(document).ready(function(){
 		$('#h').click(function(){
@@ -19,7 +23,24 @@
 		$("#b").click(function(){
 			$("#s").toggle();
 		});
-
+		$("#hide").dblclick(function(){
+			$(".click").hide("slow")
+		});
+		$("#in").click(function(){
+			$(".out").fadeToggle("slow").delay(200);
+	});
+		$("#get").click(function(){
+			$.get("https://www.w3schools.com/jquery/jquery_ajax_get_post.asp",function(data){
+				alert("Content :"+data);
+			})
+		})
+		$("#pos").click(function(){
+			$.post("https://www.w3schools.com/jquery/jquery_ajax_get_post.asp",{
+				name:sumana;
+			}),function(data){
+				alert("content :"+data);
+			}
+		})
 		/*function has() {
 			// body...
 			var e = document.getElementById("s");
